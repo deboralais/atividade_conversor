@@ -2,7 +2,14 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="min-h-screen bg-gray-50 flex flex-col relative">
+      {/* Link para Sobre no canto superior direito */}
+      <Link href="/sobre">
+        <span className="absolute top-4 right-4 text-white bg-blue-500 hover:bg-blue-600 transition py-2 px-4 rounded-md font-medium">
+          Sobre
+        </span>
+      </Link>
+
       {/* Cabeçalho */}
       <header className="bg-blue-600 text-white py-4 shadow-md">
         <h1 className="text-center text-3xl font-bold">Multi conversores, para o seu dia-a-dia!</h1>
@@ -21,11 +28,6 @@ export default function Home() {
 
           {/* Navegação */}
           <nav className="flex flex-col gap-4">
-            <Link href="/sobre">
-              <span className="block text-white bg-blue-500 hover:bg-blue-600 transition py-2 px-4 text-center rounded-md font-medium">
-                Sobre
-              </span>
-            </Link>
             <Link href="/dolar">
               <span className="block text-white bg-green-500 hover:bg-green-600 transition py-2 px-4 text-center rounded-md font-medium">
                 Conversor de Dólar

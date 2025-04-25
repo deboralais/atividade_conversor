@@ -1,3 +1,4 @@
+'use client'
 import { useState } from 'react';
 
 const TAXA_DOLAR = 5.00; // Cotação fixa em 14/04/2025
