@@ -15,8 +15,8 @@ export default function Sobre() {
           </h2>
           <p className="text-gray-600">
             Eu me chamo Débora Laís, sou mãe, trabalho como Analista de Customer Success na Recrut.AI,
-            sou estudante de Sistemas para Internet na UNIPAC.
-            Esse trabalho foi desenvolvido para a disciplina de Front-End, ministrado pelo professor Márcio Bueno.
+            sou estudante de Sistemas para Internet na UNICAP.
+            Esse trabalho foi desenvolvido para a disciplina de Front-End, ministrada pelo professor Márcio Bueno.
           </p>
           <div className="text-center mt-6">
           <a
