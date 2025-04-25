@@ -5,17 +5,15 @@ export default function Home() {
     <div className="min-h-screen bg-gray-50 flex flex-col relative">
       {/* Link para Sobre no canto superior direito */}
       <Link href="/sobre">
-  <span className="absolute top-6 right-10 text-white bg-red-400 bg-opacity-50 hover:bg-opacity-75 transition py-2 px-4 rounded-md font-medium">
-    Sobre
-  </span>
-</Link>
-
+        <span className="absolute top-4 right-4 text-white bg-blue-500 hover:bg-blue-600 transition py-2 px-4 rounded-md font-medium">
+          Sobre
+        </span>
+      </Link>
 
       {/* Cabeçalho */}
-      <header className="bg-red-600 text-white py-8 shadow-lg">
-  <h1 className="text-center text-4xl font-bold">Multi conversores, para o seu dia-a-dia!</h1>
-</header>
-
+      <header className="bg-blue-600 text-white py-4 shadow-md">
+        <h1 className="text-center text-3xl font-bold">Multi conversores, para o seu dia-a-dia!</h1>
+      </header>
 
       {/* Conteúdo principal */}
       <main className="flex-grow flex flex-col items-center justify-center px-6 py-10">
